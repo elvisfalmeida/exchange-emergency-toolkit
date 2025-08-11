@@ -138,8 +138,8 @@ function Get-StoredCredentials {
     # Credenciais armazenadas de forma segura (exemplo)
     # IMPORTANTE: Em produção, use Key Vault ou método mais seguro
     
-    $Username = "admin.uac@omegasolutions.com.br"
-    $PasswordString = "01000000d08c9ddf0115d1118c7a00c04fc297eb0100000016c590dbf77dfc44a4923d7615db306b00000000020000000000106600000001000020000000c8e11ea93bfec31d0933ed4f95b7b8ed58bb79c8eae891d679aa52f6d6b1c2f4000000000e8000000002000020000000f6c2a7f44f17aaccb634f9bd3f1e1aa02e2ff52dfad917a3a4a76da210a6d0d6300000007cffa0effce578895ddbcb84d65c9f53b5e8ee9a4bf2d10c285d9abc9e96e220caf810adefa424a55b1e6aa462667041400000008f4339e3b42000f35caea7632dc5b34f59b355cd1ed918741a9e6eb573315e38ccb81744c2e55d1357825d5befbe560aa7e14481272fce03ea406b1261697b13"
+    $Username = "admin@seudominio.com.br"
+    $PasswordString = "senha_criptografada"
     
     try {
         $SecPasswd = ConvertTo-SecureString $PasswordString
